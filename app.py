@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/", methods=["GET"])
 def hello():
     print(os.environ)
-    return os.getenv('KEY1')
+    return os.getenv('KEY3')
 
 ## 実行
 if __name__ == "__main__":
